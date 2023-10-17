@@ -1,0 +1,8 @@
+function (doc) {
+  emit(doc._id, {nis:doc.nis, namalengkap:doc.namalengkap, uasipa:doc.uasipa,unipa:doc.unipa, uhipa:doc.uhipa,uasmtk:doc.uasmtk, unmtk:doc.unmtk, uhmtk:doc.uhmtk, uasbindo:doc.uasbindo,unbindo:doc.unbindo, uhbindo:doc.uhbindo, uasbing:doc.uasbing, unbing:doc.unbing,uhbing:doc.uhbing});
+}
+
+
+function (doc) {
+  emit(doc._id, {nis:doc.nis, namalengkap:doc.namalengkap, ttl:doc.ttl, notlp:doc.notlp, alamat:doc.alamat, namaayah:doc.namaayah, notlpayah:doc.notlpayah, namaibu:doc.namaibu, notlpibu:doc.notlpibu, rev:doc._rev});
+}

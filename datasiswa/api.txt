@@ -1,0 +1,147 @@
+"nis": "2508200003",
+  "namalengkap": "Angelin Cosh",
+  "ttl": "bandung,16 januari 2005",
+  "email": "acosh@gmail.com",
+  "notlp": "082345674364",
+  "alamat": "jl. merdeka no 12 rt/rw 01/19",
+  "namaayah": "Jojon Manulu",
+  "notlpayah": "081264578734",
+  "namaibu": "Patrica Rose",
+  "notlpibu": "081274628790",
+  "uasipa": "80",
+  "unipa": "60",
+  "uhipa": "95",
+  "uasmtk": "85",
+  "unmtk": "75",
+  "uhmtk": "90",
+  "uasbindo": "90",
+  "unbindo": "80",
+  "uhbindo": "85",
+  "uasbing": "82",
+  "unbing": "80",
+  "uhbing": "85"
+ }
+}
+id"42c995391c2f85fdd5745363f900658c"
+{
+ "id": "42c995391c2f85fdd5745363f900658c",
+ "key": "42c995391c2f85fdd5745363f900658c",
+ "value": {
+  "rev": "5-d06fb58e079116447afaa84441e3c869"
+ },
+ "doc": {
+  "_id": "42c995391c2f85fdd5745363f900658c",
+  "_rev": "5-d06fb58e079116447afaa84441e3c869",
+  "nis": "2508200002",
+  "namalengkap": "Jessica Jess",
+  "ttl": "bandung, 16 januari 2005",
+  "email": "jjess@gmail.com",
+  "notlp": "082345674364",
+  "alamat": "jl. melati merah no 15 rt/rt 01/16 ",
+  "namaayah": "Baba Andreas",
+  "notlpayah": "089776486860",
+  "namaibu": "Rose Marry",
+  "notlpibu": "081376939990",
+  "uasipa": "70",
+  "unipa": "60",
+  "uhipa": "75",
+  "uasmtk": "70",
+  "unmtk": "60",
+  "uhmtk": "85",
+  "uasbindo": "90",
+  "unbindo": "85",
+  "uhbindo": "85",
+  "uasbing": "88",
+  "unbing": "82",
+  "uhbing": "85"
+ }
+}
+id"42c995391c2f85fdd5745363f90068f4"
+{
+ "id": "42c995391c2f85fdd5745363f90068f4",
+ "key": "42c995391c2f85fdd5745363f90068f4",
+ "value": {
+  "rev": "7-d6db31bac51345c1dd06b1da26d5bb78"
+ },
+ "doc": {
+  "_id": "42c995391c2f85fdd5745363f90068f4",
+  "_rev": "7-d6db31bac51345c1dd06b1da26d5bb78",
+  "nis": "250820001",
+  "namalengkap": "Andika Prasada",
+  "ttl": "jakarta, 1 februari 2005",
+  "email": "aprasada@gmail.com",
+  "notlp": "082178308006",
+  "alamat": "jl. biduri bulan II no 105 rt/rw 06/80 ",
+  "namaayah": "Joko Abraham",
+  "notlpayah": "081273892739",
+  "namaibu": "Putri Welas",
+  "notlpibu": "087673987710",
+  "uasipa": "80",
+  "unipa": "60",
+  "uhipa": "95",
+  "uasmtk": "85",
+  "unmtk": "75",
+  "uhmtk": "80",
+  "uasbindo": "89",
+  "unbindo": "70",
+  "uhbindo": "85",
+  "uasbing": "80",
+  "unbing": "80",
+  "uhbing": "75"
+ }
+}
+id"_design/daftar_siswa"
+{
+ "id": "_design/daftar_siswa",
+ "key": "_design/daftar_siswa",
+ "value": {
+  "rev": "7-218a7a6e76458a075b441c07518bfe30"
+ },
+ "doc": {
+  "_id": "_design/daftar_siswa",
+  "_rev": "7-218a7a6e76458a075b441c07518bfe30",
+  "views": {
+   "siswa": {
+    "map": "function (doc) {\n  emit(doc._id, {nis:doc.nis, namalengkap:doc.namalengkap, ttl:doc.ttl, notlp:doc.notlp, alamat:doc.alamat, namaayah:doc.namaayah, notlpayah:doc.notlpayah, namaibu:doc.namaibu, notlpibu:doc.notlpibu, rev:doc._rev});\n}"
+   },
+   "nilai": {
+    "map": "function (doc) {\n  emit(doc._id, {nis:doc.nis, namalengkap:doc.namalengkap, uasipa:doc.uasipa,unipa:doc.unipa, uhipa:doc.uhipa,uasmtk:doc.uasmtk, unmtk:doc.unmtk, uhmtk:doc.uhmtk, uasbindo:doc.uasbindo,unbindo:doc.unbindo, uhbindo:doc.uhbindo, uasbing:doc.uasbing, unbing:doc.unbing,uhbing:doc.uhbing});\n}"
+   }
+  },
+  "language": "javascript"
+ }
+}
+id"c2d2a70f4e627ebb732b1c3b92003800"
+{
+ "id": "c2d2a70f4e627ebb732b1c3b92003800",
+ "key": "c2d2a70f4e627ebb732b1c3b92003800",
+ "value": {
+  "rev": "1-a2bf195de919efc6a1149005efe7fc67"
+ },
+ "doc": {
+  "_id": "c2d2a70f4e627ebb732b1c3b92003800",
+  "_rev": "1-a2bf195de919efc6a1149005efe7fc67",
+  "nis": "2508200006",
+  "namalengkap": "Kholisah Lustinasari",
+  "ttl": "bekasi, 13 november 2005",
+  "email": "lisalustinasari@gmail.com",
+  "notlp": "08392345324",
+  "alamat": "jl. mekar 3 no 17 rt.01.rw. 17",
+  "namaayah": "Joko Abraham",
+  "notlpayah": "0873492749",
+  "namaibu": "wulan siti",
+  "notlpibu": "0892348764",
+  "uasipa": "80",
+  "unipa": "79",
+  "uhipa": "99",
+  "uasmtk": "80",
+  "unmtk": "90",
+  "uhmtk": "97",
+  "uasbindo": "77",
+  "unbindo": "89",
+  "uhbindo": "90",
+  "uasbing": "88",
+  "unbing": "86",
+  "uhbing": "85"
+ }
+}
